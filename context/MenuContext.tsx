@@ -17,7 +17,7 @@ interface MenuProviderProps {
 
 export const MenuProvider: React.FC<MenuProviderProps> = ({ children }) => {
   const [menuItems, setMenuItems] = useState<MenuItem[]>([
-    // ⭐ STARTERS
+    //  STARTERS
     {
       id: '1',
       name: 'Tomato Soup',
@@ -47,7 +47,7 @@ export const MenuProvider: React.FC<MenuProviderProps> = ({ children }) => {
       price: 150.00,
     },
 
-    // 🍽️ MAINS
+    // MAINS
     {
       id: '5',
       name: 'Grilled Ribeye Steak',
@@ -84,7 +84,7 @@ export const MenuProvider: React.FC<MenuProviderProps> = ({ children }) => {
       price: 425.00,
     },
 
-    // 🍰 DESSERTS
+    //  DESSERTS
     {
       id: '10',
       name: 'Chocolate Mousse',
@@ -115,7 +115,7 @@ export const MenuProvider: React.FC<MenuProviderProps> = ({ children }) => {
     },
   ]);
 
-  // 🧭 FUNCTIONS
+  //  FUNCTIONS
   const addMenuItem = (item: Omit<MenuItem, 'id'>) => {
     const newItem: MenuItem = {
       ...item,
