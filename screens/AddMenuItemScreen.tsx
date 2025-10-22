@@ -88,7 +88,7 @@ const AddMenuItemScreen: React.FC<AddMenuItemScreenProps> = ({ navigation }) => 
       </View>
 
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
-        {/* Dish Name Section */}
+        {/*  The Dish Name Section */}
         <View style={styles.section}>
           <Text style={styles.label}>Dish Name</Text>
           <View style={styles.imagePlaceholders}>
@@ -107,7 +107,7 @@ const AddMenuItemScreen: React.FC<AddMenuItemScreenProps> = ({ navigation }) => 
           />
         </View>
 
-        {/* Description Section */}
+        {/*  The Description Section */}
         <View style={styles.section}>
           <Text style={styles.label}>Description</Text>
           <TextInput
@@ -121,7 +121,7 @@ const AddMenuItemScreen: React.FC<AddMenuItemScreenProps> = ({ navigation }) => 
           />
         </View>
 
-        {/* Price Section */}
+        {/*  The Price Section */}
         <View style={styles.section}>
           <Text style={styles.label}>Price</Text>
           <TextInput
@@ -134,7 +134,7 @@ const AddMenuItemScreen: React.FC<AddMenuItemScreenProps> = ({ navigation }) => 
           />
         </View>
 
-        {/* Course Section */}
+        {/*  The Course Section */}
         <View style={styles.section}>
           <Text style={styles.label}>Course</Text>
           <View style={styles.courseSelector}>
@@ -161,7 +161,7 @@ const AddMenuItemScreen: React.FC<AddMenuItemScreenProps> = ({ navigation }) => 
         </View>
       </ScrollView>
 
-      {/* Action Buttons */}
+      {/*  The Action Buttons */}
       <View style={styles.actionButtons}>
         <TouchableOpacity style={styles.saveButton} onPress={handleSave}>
           <Text style={styles.saveButtonText}>Save</Text>
