@@ -15,3 +15,4 @@ export interface MenuContextType {
   getMenuItemsByCourse: (course: Course) => MenuItem[];
   getTotalMenuItems: () => number;
 }
+////defines the core structure 
