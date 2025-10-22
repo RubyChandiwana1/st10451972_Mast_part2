@@ -22,25 +22,8 @@
    - Responsive layout
    - Intuitive navigation
 
-## Project Structure
 
-
-Amagwinya_Scones/
-├── App.tsx                 # Main app with navigation
-├── types.ts               # TypeScript interfaces
-├── context/
-│   └── MenuContext.tsx    # State management for menu items
-├── screens/
-│   ├── HomeScreen.tsx     # Main menu screen
-│   ├── CategoryScreen.tsx # Course-specific dishes
-│   ├── AddMenuItemScreen.tsx # Add new menu item
-│   └── FilterByCourseScreen.tsx # Filter functionality
-├── components/
-│   └── Header.tsx         # Reusable header component
-└── assets/                # Images and icons
-
-
-## How to Run
+ How to Run
 
 1. *Install dependencies* (if not already done):
    bash
@@ -57,7 +40,7 @@ Amagwinya_Scones/
    - Android: npm run android (requires Android Studio/emulator)
    - iOS: npm run ios (requires macOS)
 
-## App Flow
+ App Flow
 
 1. *Home Screen*: Shows total menu items and course navigation
 2. *Course Selection*: Tap STARTER/MAIN/DESSERT to view dishes
@@ -65,7 +48,7 @@ Amagwinya_Scones/
 4. *Filter*: Use "Filter by Course" to view items by category
 5. *Navigation*: Back buttons and header navigation throughout
 
-## Technical Implementation
+ Technical Implementation
 
 - *React Navigation*: Stack navigation for multiple screens
 - *Context API*: State management for menu items
@@ -73,14 +56,14 @@ Amagwinya_Scones/
 - *Expo*: Cross-platform development framework
 - *React Native*: Native mobile app development
 
-## Sample Data
+ Sample Data
 
 The app comes with sample menu items:
 - Pea Soup (Starter) - $8.99
 - Steak (Main) - $24.99  
 - Chocolate Mousse (Dessert) - $6.99
 
-## Requirements Met
+Requirements Met
 
 ✅ Chef can enter menu items with dish name, description, course, and price  
 ✅ Predefined list of courses (starter, main, dessert)  
@@ -89,9 +72,3 @@ The app comes with sample menu items:
 ✅ Multiple screens implementation  
 ✅ Working application ready for demonstration  
 
-## Next Steps
-
-The app is ready for:
-- Video demonstration
-- GitHub repository submission
-- Further development and enhancements
