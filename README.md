@@ -75,3 +75,21 @@ Requirements Met
 ✅ Multiple screens implementation  
 ✅ Working application ready for demonstration  
 
+
+## Changelog
+
+### 2025-11-07
+- Refactor: Extracted `utils/format.ts` with `formatPrice` and `getCourseName` helpers, and replaced inline formatting in `CategoryScreen` and `FilterByCourseScreen` for consistency and reuse.
+- Refactor: Added `components/EmptyState.tsx` and used it in the Filter screen for cleaner, reusable empty-state UI.
+- Home: Average price by course (Starter/Main/Dessert) displayed with R currency.
+- Home: Added complete “All Items” list for the full menu.
+- Manage: Added ability to remove items from the Add Menu Item screen.
+- Enriched filter results: show name, course badge, description, and price (R with two decimals); added empty state when no matches.
+- Standardized currency styling to “R” across Category, Filter, and Home latest list.
+- Added “Latest Items” section on Home (last 3 items) with a “See all” link.
+- Reduced Home “Add Menu Item” and “Filter by Course” button sizes for better balance.
+- Prevented button overlap on small screens: wrapped Home in a scroll container and added spacing.
+- Unified price typography (size and weight) across screens for consistency.
+
+### Initial
+- Initial app structure with Home, Category, Add Menu Item, and Filter screens.
